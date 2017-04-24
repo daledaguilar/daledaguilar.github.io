@@ -32,9 +32,7 @@ $(".page-wrapper").click(function(){
     $("#sidebar-button").removeClass("button-active");
     $(".sidebar-container").removeClass("sidebar-active");
     $(".page-wrapper").removeClass("wrapper-active")
-    setTimeout(function() {
-  $('body').addClass('no-scroll');
-  }, 300);
+    
   }
 
 })
