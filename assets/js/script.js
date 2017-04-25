@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function(){
 
   $("#sidebar-button").click(function(){
     if ($(".sidebar-box").hasClass('sidebar-active')){
