@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-  // QUESTION 6
   $("#sidebar-button").click(function(){
     if ($(".sidebar-box").hasClass('sidebar-active')){
       $('body').removeClass('no-scroll');
@@ -26,7 +25,7 @@ $(document).ready(function() {
     }
   });
 
-  // QUESTION 8
+
   $("#gallery-next").click(function(){
     var x = parseInt($('#gallery').css('margin-left').replace("px",""));
     if (x == -3840){
