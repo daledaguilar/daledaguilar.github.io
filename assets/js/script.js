@@ -1,11 +1,11 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
   $("#sidebar-button").click(function(){
     if ($(".sidebar-box").hasClass('sidebar-active')){
       $('body').removeClass('no-scroll');
       $('#sidebar-button').removeClass('button-active');
       $('.sidebar-box').removeClass('sidebar-active');
-      $('.page').removeClass('paper-active');
+      $('.page').removeClass('page-active');
     } else {
         $('#sidebar-button').addClass('button-active');
         $('.sidebar-box').addClass('sidebar-active');
@@ -43,4 +43,31 @@ $(document).ready(function(){
       $("#gallery").css('margin-left', y+960).replace(y+960);
     }
   });
+$("#hello").click(function(){
+  window.location.href = 'https://www.linkedin.com/in/ddaguilar/';
+})
+$("#facts").click(function(){
+  window.location.href = 'http://artedeaguilar.tumblr.com/';
+})
+$("#art").click(function(){
+  window.location.href = 'http://www.reno.gov/about-reno';
+})
+$("major-text").click(function(){
+  $("#snake").show();
+})
+$("#info-section").click(function(){
+  $("#snake").hide();
+})
+$("home-text").click(function(){
+  $("#reno").show();
+})
+$("#info-section").click(function(){
+  $("#snake").hide();
+})
+$("color-text").click(function(){
+  $("#stitch").show();
+})
+$("#info-section").click(function(){
+  $("#snake").hide();
+})
   });
