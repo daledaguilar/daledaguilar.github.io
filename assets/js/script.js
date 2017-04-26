@@ -53,19 +53,19 @@ $("#art").click(function(){
   window.location.href = 'http://www.reno.gov/about-reno';
 })
 $("major-text").click(function(){
-  $("#snake").show();
+  $("#haas").show();
 })
 $("#info-section").click(function(){
   $("#snake").hide();
 })
 $("home-text").click(function(){
-  $("#reno").show();
+  $("#re").show();
 })
 $("#info-section").click(function(){
   $("#snake").hide();
 })
 $("color-text").click(function(){
-  $("#stitch").show();
+  $("#sti").show();
 })
 $("#info-section").click(function(){
   $("#snake").hide();
